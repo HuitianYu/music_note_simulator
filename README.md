@@ -54,7 +54,7 @@ If you encounter problems whiling rendering the notes, please turn on the **deta
 Notes are located in the folder **music\_note**.  
 Structure of an intact note (Example of **gurenge** in ):
 
-    └───gurenge (folder name  which indicates the music note)
+    └───gurenge (folder name which indicates the music note)
     |       note.m
     └───sheet
     └───L
