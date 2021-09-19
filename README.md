@@ -84,7 +84,7 @@ Structure of an intact note (Example of **gurenge** in ):
 This structure shows the structure of the note **gurenge**, which has two sound tracks (**L** and **H**: It must have these two). In each sound track, multiple parts can exist. In the example structure, there are two parts for each sound track. Different parts can represent different instruments. (This is only an example, as in REAL **gurenge** folder, there is only one part.) In each part, there are a series of files called **paragraph** ending with a number indicating the paragraph number. The **music\_engine** will organize and render all the file sequently according to the paragraph number. The ending can either be number (e.g. **H1\_1**, **H1\_2**) or alphabet (e.g. **H1\_A**, **H1\_B**), but better don’t mix them. **sheet** is not necessary.
 
 In your own notes, please specify the **note\_hint** and the **sampling\_frequency**.  
-As an useful hint for the value of sampling\_frequency: it should be the an interger around 44100, which is themultiple of the least common multiple of the tempo and all smallest beats divided by 60. For example, in **gurenge**, the tempo is 64 and all beat types are 1/10, 1/12, 1/14, 1/18.
+As an useful hint for the value of sampling\_frequency: it should be the an interger around 44100, which is the multiple of the least common multiple of the tempo and all smallest beats divided by 60. For example, in **gurenge**, the tempo is 64 and all beat types are 1/10, 1/12, 1/14, 1/18.
 
 Thus, 64 \* 5 \* 3 \* 7 \* 3 / 60 = 336 --> 336 \* 12 = 43008
 
