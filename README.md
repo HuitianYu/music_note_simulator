@@ -111,7 +111,7 @@ There is also a part in the **note.m** file for you to organize the parts and pa
     paragraph_list = [1:5];
     
 
-**layer\_list** specifies the how many layers can be played in the end. \[1:1\] means that from the 1. part to the 1.part (means only the first part) will be played. The first \[1:1\] is referred to the left sound track and the second \[1:1\] is referred to the right sound track.  
+**layer\_list** specifies the how many layers can be played in the end. \[1:1\] means that from the 1. part to the 1. part (means only the first part) will be played. The first \[1:1\] is referred to the left sound track and the second \[1:1\] is referred to the right sound track.  
 **paragraph\_list** specifies how many paragraphs can be played. \[1:5\] means 1 to 5 paragraphs can be played. For the case of alphabet paragraphs, it can be written as follows:
 
     paragraph_list = [A:E];
