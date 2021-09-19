@@ -163,21 +163,21 @@ Simutaneous note:
 
 Sequential note:
 
-    'C5; E5; G5' % Please note that sequential notes are seprarated by semi-colons.
+    'C5, E5, G5' % Please note that sequential notes are seprarated by commas.
     
 
 Note of two layers with musical gestures:
 
-    'cresc([(C5 + G5); D5; E5x2] + [Gx2; C5x2])'
+    'cresc([(C5 + G5), D5, E5x2] + [Gx2, C5x2])'
     
 
 Two layers surrounded by \[\] are added to **simutanoeus note**. Please note that each layer must have the same beats. Here, the first layer has 4 beats (1 + 1 + 2 = 4) and the second layer has 4 beats (2 + 2 = 4) as well. In the first layer, the first note is also a **simutaneous note**. This complex note hat a musical gesture of **cresc** (crescendo).
 
 In order to avoid much too long code in one line for the complex note, which might be a classical occassion for a series of notes in crescendo, the above mentioned note can be written in the following form:
 
-    ['cresc([(C5 + G5); D5; E5x2] ', ...
+    ['cresc([(C5 + G5), D5, E5x2] ', ...
         '+', ...
-    ' [Gx2; C5x2])']
+    ' [Gx2, C5x2])']
     
 
 Parts of the note can be seperated by comma and bracketed by \[\].
