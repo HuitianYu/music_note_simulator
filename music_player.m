@@ -27,7 +27,7 @@ H_on = true;
 
 % if to recreate note due to change in temperament, instrument, gesture
 % if to see the detail of the being created note
-fresh_mode = true;
+fresh_mode = false;
 detail_mode = false; % if ERROR occurs, please turn it true
 
 %% LOAD NOTE AND PLAY

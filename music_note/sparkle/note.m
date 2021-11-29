@@ -1,5 +1,5 @@
 %% NOTE HINT
-note_hint = 'RADWIMPS - Sparkle (╬Щ╓нцШ╓о)';
+note_hint = 'RADWIMPS - Sparkle (Е░⌡Ц│╝Е░█Ц│╞)';
 
 %% SAMPLING FREQUENCY
 % IMPORTANT !!! OTHERWISE FLOAT NUMBER! BASED ON BPM AND SMALLEST BEAT

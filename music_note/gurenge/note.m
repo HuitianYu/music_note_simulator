@@ -13,7 +13,7 @@
 % @link         no
 
 %% NOTE HINT
-note_hint = 'πÌúÁ§Œ»– - ºt…è»A (Perf: LiSA, Arr: Animenz)';
+note_hint = 'Á¥ÖËìÆËèØ (Perf: LiSA, Arr: Animenz)';
 
 %% SAMPLING FREQUENCY
 % IMPORTANT !!! OTHERWISE FLOAT NUMBER! BASED ON BPM AND SMALLEST BEAT
@@ -21,7 +21,7 @@ sampling_frequency = 43008 * speed_up; % lcm(all bpm/60) * product(all prime fra
 
 %% ORGANIZE THE NOTE
 layer_list = {[1:1]; [1:1]}; %#ok<NBRAK> % L; H
-paragraph_list = [7:7]; %#ok<NBRAK>
+paragraph_list = [1:7]; %#ok<NBRAK>
 
 %% INTEGRATE NOTE
 integrate_note
