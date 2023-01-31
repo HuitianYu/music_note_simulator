@@ -15,7 +15,7 @@ instrument_name = 'piano';
 sustain = true;
 bpm = 64;
 transposition = 0;
- % page 7 (1 bar = 4 beat)
+ % page 8 (1 bar = 4 beat)
 key_string_list_L1_8 = {...
     % 41 ~ 42 bar in last page
     % 43 bar
@@ -27,4 +27,15 @@ key_string_list_L1_8 = {...
     % 45 bar
     'mp(E2_8x3)'; 'mp(B2_8x3)'; 'mp(G3_2 + B3_2 + E4_2)'; 'mp(E3_4)'; 'mp(G3_2 + B3_2 + E4_2)'; % 1 ~ 2 beat
     'mp>p([B2_8x3, F3#_8x3, (F3#_4x3 + A3_4x3 + D4_4x3), F3#_2])'; % 3 ~ 4 beat
+    % 46 bar + 47 bar: 1 ~ 2 beat
+    ['p([C3x2 + G3x2 + E4x2] ' ... % 1 ~ 2 bar: layer 1
+    '+' ...
+    ' [X_4x3, G4_4, G4_4x3, G4_4])']; % 1 ~ 2 bar: layer 2
+    ['p([(D3x2 + A3x2 + F4#x2), (E3x2 + G3x2)] ' ... % (46 bar: 3 ~ 4 bar + 47 bar: 1 ~ 2 bar): layer 1
+    '+' ...
+    ' [X_4x3, D4_4, D4_8x3, C4_8x3, B3, G4_4, G4_4x3, A4_4])']; % (46 bar: 3 ~ 4 bar + 47 bar: 1 ~ 2 bar): layer 2
+    % 47 bar: 3 ~ 4 beat + 48 bar: 1 ~ 2 beat
+    ['p([(B3x2 + D4x2 + F4#x2 + A4x2), (C4x2 + E4x2)] ' ... % (47 bar: 3 ~ 4 bar + 48 bar: 1 ~ 2 bar): layer 1
+    '+' ...
+    ' [X_4x3, B4_4, B4_8x3, F4#_8x3, G4, G4_4, G4_4x3, G4_4])']; % (47 bar: 3 ~ 4 bar + 48 bar: 1 ~ 2 bar): layer 2
 }; 

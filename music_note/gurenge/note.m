@@ -21,7 +21,7 @@ sampling_frequency = 43008 * speed_up; % lcm(all bpm/60) * product(all prime fra
 
 %% ORGANIZE THE NOTE
 layer_list = {[1:1]; [1:1]}; %#ok<NBRAK> % L; H
-paragraph_list = [1:7]; %#ok<NBRAK>
+paragraph_list = [1:11]; %#ok<NBRAK>
 
 %% INTEGRATE NOTE
 integrate_note

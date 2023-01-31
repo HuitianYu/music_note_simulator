@@ -155,6 +155,12 @@ function gesture_information = get_gesture_information(gesture_name)
             [t_list, strength_list, curve_list, parameter_list] = old_gesture_information{:};
             strength_list(2) = strength_list(2) * pp_ratio;
             strength_list(3) = strength_list(3) * ff_ratio;
+        % f derivatives - f>ff
+        case 'f>ff'
+            old_gesture_information = get_gesture_information('');
+            [t_list, strength_list, curve_list, parameter_list] = old_gesture_information{:};
+            strength_list(2) = strength_list(2) * f_ratio;
+            strength_list(3) = strength_list(3) * ff_ratio;
         % renamed gestures
         case '>' % >
             old_gesture_information = get_gesture_information('ff');
